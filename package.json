@@ -1,0 +1,17 @@
+{
+  "name": "@linkrra/synap-quickstart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OpenAI-compatible cURL, Python and Node.js examples for Synap inference.",
+  "type": "module",
+  "scripts": {
+    "example:node": "node examples/node.mjs",
+    "check": "bash scripts/check.sh"
+  },
+  "dependencies": {
+    "openai": "^7.51.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
